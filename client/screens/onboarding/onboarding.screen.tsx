@@ -18,7 +18,7 @@ export default function OnBoardingScreen() {
 
   return (
     <LinearGradient
-      colors={["#E5ECF9", "#F6F7F9"]}
+      colors={["#0F2027", "#2C5364"]}
       style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
     >
       <View style={styles.firstContainer}>
