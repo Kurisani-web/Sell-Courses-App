@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     padding: 20,
-    backgroundColor: "#fff",
+    backgroundColor: "#0F2027",
   },
   headerText: {
     fontSize: 22,
