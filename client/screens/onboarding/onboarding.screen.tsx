@@ -32,7 +32,7 @@ export default function OnBoardingScreen() {
             source={require("@/assets/onboarding/shape_3.png")}
           />
           <Text style={[styles.titleText, { fontFamily: "Raleway_700Bold" }]}>
-            Start Learning With
+            Fuel Your Mind With
           </Text>
           <Image
             style={styles.titleTextShape2}
@@ -45,15 +45,15 @@ export default function OnBoardingScreen() {
             source={require("@/assets/onboarding/shape_6.png")}
           />
           <Text style={[styles.titleText, { fontFamily: "Raleway_700Bold" }]}>
-            Becodemy
+            CheFu Academy
           </Text>
         </View>
         <View style={styles.dscpWrapper}>
           <Text style={[styles.dscpText, { fontFamily: "Nunito_400Regular" }]}>
-            Explore a variety of interactive lesson,
+            Explore learning your way — with
           </Text>
           <Text style={[styles.dscpText, { fontFamily: "Nunito_400Regular" }]}>
-            video, quizze & assignment.
+            lessons, videos, quizzes, and tasks.
           </Text>
         </View>
         <TouchableOpacity
@@ -61,7 +61,7 @@ export default function OnBoardingScreen() {
           onPress={() => router.push("/(routes)/welcome-intro")}
         >
           <Text style={[styles.buttonText, { fontFamily: "Nunito_700Bold" }]}>
-            Getting Started
+            Let’s Begin
           </Text>
         </TouchableOpacity>
       </View>
