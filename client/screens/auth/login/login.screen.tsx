@@ -114,7 +114,7 @@ export default function LoginScreen() {
 
   return (
     <LinearGradient
-      colors={["#E5ECF9", "#F6F7F9"]}
+      colors={["#0F2027", "#2C5364"]}
       style={{ flex: 1, paddingTop: 20 }}
     >
       <ScrollView>
