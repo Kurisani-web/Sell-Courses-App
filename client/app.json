@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Betafier",
-    "slug": "Betafier",
+    "name": "CheFu Academy",
+    "slug": "chefu academy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -14,14 +14,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.betafier.app"
+      "bundleIdentifier": "com.chefuacademy.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.betafier.app"
+      "package": "com.chefuacademy.app"
     },
     "web": {
       "bundler": "metro",
