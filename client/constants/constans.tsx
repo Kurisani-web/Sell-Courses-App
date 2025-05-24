@@ -1,26 +1,26 @@
 export const onboardingSwiperData: onboardingSwiperDataType[] = [
   {
-    id: 1,
-    title: "Start your learning journey with dose of fun!",
-    description: "Our engaging learning videos will spark",
-    sortDescrition: "your curiosity & enjoyable.",
-    image: require("@/assets/onboarding/intro_1.png"),
-  },
-  {
-    id: 2,
-    title: "Discover your passion, elevate your expertise",
-    description: "Our comprehensive our courses and expert",
-    sortDescrition: "instructors to guide every step.",
-    image: require("@/assets/onboarding/intro_2.png"),
-  },
-  {
-    id: 3,
-    title: "Get online certificate with Unusual skills",
-    description: "To earn an online certificate, individuals",
-    sortDescrition: "typically need to complete the required",
-    sortDescrition2: "coursework & assessments.",
-    image: require("@/assets/onboarding/intro_3.png"),
-  },
+  id: 1,
+  title: "Kickstart Your Learning Adventure — with a Spark of Fun!",
+  description: "Dive into bite-sized, engaging videos crafted to inspire,",
+  sortDescrition: "ignite your curiosity, and make learning enjoyable.",
+  image: require("@/assets/onboarding/intro_1.png"),
+},
+{
+  id: 2,
+  title: "Discover Your Passion. Elevate Your Expertise.",
+  description: "Explore comprehensive courses led by expert mentors,",
+  sortDescrition: "guiding you every step of the way.",
+  image: require("@/assets/onboarding/intro_2.png"),
+},
+{
+  id: 3,
+  title: "Earn Online Certificates with Uncommon Skills",
+  description: "Complete immersive lessons and hands-on challenges",
+  sortDescrition: "to unlock official certificates and prove your growth.",
+  sortDescrition2: "",
+  image: require("@/assets/onboarding/intro_3.png"),
+},
 ];
 
 export const bannerData: BannerDataTypes[] = [
