@@ -15,7 +15,7 @@ export const commonStyles = StyleSheet.create({
     justifyContent: "center",
   },
   buttonContainer: {
-    backgroundColor: "#2467EC",
+    backgroundColor: "#4682B4",
     width: responsiveWidth(88),
     height: responsiveWidth(2.5),
     borderRadius: 5,
