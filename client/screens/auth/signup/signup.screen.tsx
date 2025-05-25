@@ -142,7 +142,7 @@ export default function SignUpScreen() {
           Let's get started!
         </Text>
         <Text style={styles.learningText}>
-          Create an account to Becodemy to get all features
+          Create an account to CheFu Academy to get all features
         </Text>
         <View style={styles.inputContainer}>
           <View>
@@ -150,7 +150,7 @@ export default function SignUpScreen() {
               style={[styles.input, { paddingLeft: 40, marginBottom: -12 }]}
               keyboardType="default"
               value={userInfo.name}
-              placeholder="shahriar sajeeb"
+              placeholder="Your Name"
               onChangeText={(value) =>
                 setUserInfo({ ...userInfo, name: value })
               }
@@ -167,7 +167,7 @@ export default function SignUpScreen() {
               style={[styles.input, { paddingLeft: 40 }]}
               keyboardType="email-address"
               value={userInfo.email}
-              placeholder="support@becodemy.com"
+              placeholder="example@gmail.com"
               onChangeText={(value) =>
                 setUserInfo({ ...userInfo, email: value })
               }
@@ -248,7 +248,7 @@ export default function SignUpScreen() {
               )}
             </TouchableOpacity>
 
-            <View
+            {/*<View
               style={{
                 flexDirection: "row",
                 alignItems: "center",
@@ -263,7 +263,7 @@ export default function SignUpScreen() {
               <TouchableOpacity>
                 <FontAwesome name="github" size={30} />
               </TouchableOpacity>
-            </View>
+            </View>*/}
 
             <View style={styles.signupRedirect}>
               <Text style={{ fontSize: 18, fontFamily: "Raleway_600SemiBold" }}>
