@@ -25,11 +25,13 @@ interface IRegistrationBody {
 }
 
 export const registrationUser = CatchAsyncError(
+  console.log("registrationUser called with body:", req.body);
   async (req: Request, res: Response, next: NextFunction) => {
     try {
       const { name, email, password } = req.body;
 
       const isEmailExist = await userModel.findOne({ email });
+      console.log("isEmailExist:", isEmailExist);
       if (isEmailExist) {
         return next(new ErrorHandler("Email already exist", 400));
       }
@@ -41,6 +43,7 @@ export const registrationUser = CatchAsyncError(
       };
 
       const activationToken = createActivationToken(user);
+      console.log("activationToken generated:", activationToken);
 
       const activationCode = activationToken.activationCode;
 
@@ -64,6 +67,7 @@ export const registrationUser = CatchAsyncError(
           activationToken: activationToken.token,
         });
       } catch (error: any) {
+        console.error("Error in registrationUser:", error);
         return next(new ErrorHandler(error.message, 400));
       }
     } catch (error: any) {
