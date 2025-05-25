@@ -227,7 +227,7 @@ export default function LoginScreen() {
               )}
             </TouchableOpacity>
 
-            <View
+            {/*<View
               style={{
                 flexDirection: "row",
                 alignItems: "center",
@@ -242,7 +242,7 @@ export default function LoginScreen() {
               <TouchableOpacity>
                 <FontAwesome name="github" size={30} />
               </TouchableOpacity>
-            </View>
+            </View>*/}
 
             <View style={styles.signupRedirect}>
               <Text style={{ fontSize: 18, fontFamily: "Raleway_600SemiBold" }}>
@@ -280,10 +280,11 @@ const styles = StyleSheet.create({
   welcomeText: {
     textAlign: "center",
     fontSize: 24,
+    color: "#40E0D0",
   },
   learningText: {
     textAlign: "center",
-    color: "#575757",
+    color: "#FFFAFA",
     fontSize: 15,
     marginTop: 5,
   },
