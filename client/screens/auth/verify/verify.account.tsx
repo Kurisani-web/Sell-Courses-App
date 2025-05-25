@@ -103,11 +103,12 @@ const styles = StyleSheet.create({
   headerText: {
     fontSize: 22,
     fontWeight: "bold",
+    color: "#40E0D0",
     marginBottom: 10,
   },
   subText: {
     fontSize: 16,
-    color: "#666",
+    color: "#FFFAFA",
     marginBottom: 20,
     textAlign: "center",
   },
@@ -123,6 +124,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     marginRight: 10,
     borderRadius: 10,
+    color: "#FFFAFA",
     fontSize: 20,
   },
   loginLink: {
@@ -134,5 +136,8 @@ const styles = StyleSheet.create({
     marginLeft: 5,
     fontSize: 16,
   },
-  backText: { fontSize: 16 },
+  backText: { 
+    fontSize: 16, 
+    color: "#FFFAFA",
+  },
 });
