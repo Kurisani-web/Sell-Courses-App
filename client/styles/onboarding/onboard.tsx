@@ -14,8 +14,8 @@ export const styles = StyleSheet.create({
     marginTop: 50,
   },
   logo: {
-    width: wp("23%"),
-    height: hp("10%"),
+    width: wp("25%"),
+    height: hp("12%"),
   },
   titleWrapper: {
     flexDirection: "row",
@@ -28,6 +28,7 @@ export const styles = StyleSheet.create({
   titleText: {
     fontSize: hp("4%"),
     textAlign: "center",
+    color: "#40E0D0",
   },
   titleTextShape2: {
     position: "absolute",
@@ -43,7 +44,7 @@ export const styles = StyleSheet.create({
   },
   dscpText: {
     textAlign: "center",
-    color: "#575757",
+    color: "#FFFAFA",
     fontSize: hp("2%"),
   },
   buttonWrapper: {
