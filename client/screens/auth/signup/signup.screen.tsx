@@ -130,7 +130,7 @@ export default function SignUpScreen() {
 
   return (
     <LinearGradient
-      colors={["#E5ECF9", "#F6F7F9"]}
+      colors={["#0F2027", "#2C5364"]}
       style={{ flex: 1, paddingTop: 20 }}
     >
       <ScrollView>
@@ -298,11 +298,12 @@ const styles = StyleSheet.create({
   },
   welcomeText: {
     textAlign: "center",
+    color: "#40E0D0",
     fontSize: 24,
   },
   learningText: {
     textAlign: "center",
-    color: "#575757",
+    color: "#FFFAFA",
     fontSize: 15,
     marginTop: 5,
   },
