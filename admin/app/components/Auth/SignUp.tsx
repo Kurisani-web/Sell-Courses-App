@@ -127,7 +127,7 @@ const Signup: FC<Props> = ({ setRoute }) => {
         <div className="w-full mt-5">
           <button 
             type="submit" 
-            ddisabled={isLoading}
+            disabled={isLoading}
             className={`${styles.button} ${isLoading ? "opacity-50 cursor-not-allowed" : ""}`} 
           >
             {isLoading ? "Signing up..." : "Sign Up"}
