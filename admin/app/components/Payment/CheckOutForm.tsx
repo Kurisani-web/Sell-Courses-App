@@ -1,11 +1,18 @@
 // app/components/Payment/CheckOutForm.tsx
 "use client";
-import React from "react";
+import React, { FC } from "react";
 
-const CheckOutForm = () => {
+type Props = {
+  setOpen: (open: boolean) => void;
+  data: any;
+  user: any;
+  refetch: () => void;
+};
+
+const CheckOutForm: FC<Props> = ({ setOpen, data, user, refetch }) => {
   return (
-    <div>
-      <p>Checkout form placeholder</p>
+    <div className="w-full">
+      <p className="text-black dark:text-white">Checkout form goes here.</p>
     </div>
   );
 };
