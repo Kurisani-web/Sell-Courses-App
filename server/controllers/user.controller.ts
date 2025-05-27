@@ -25,8 +25,9 @@ interface IRegistrationBody {
 }
 
 export const registrationUser = CatchAsyncError(
-  console.log("registrationUser called with body:", req.body);
+  
   async (req: Request, res: Response, next: NextFunction) => {
+    console.log("registrationUser called with body:", req.body);
     try {
       const { name, email, password } = req.body;
 
