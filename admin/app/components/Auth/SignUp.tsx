@@ -21,7 +21,7 @@ const schema = Yup.object().shape({
 
 const Signup: FC<Props> = ({ setRoute }) => {
   const [show, setShow] = useState(false);
-  const [register, { data, error, isSuccess }] = useRegisterMutation();
+  const [register, { data, error, isSuccess, isLoading }] = useRegisterMutation();
 
   useEffect(() => {
     if (isSuccess) {
@@ -125,7 +125,13 @@ const Signup: FC<Props> = ({ setRoute }) => {
           <span className="text-red-500 pt-2 block">{errors.password}</span>
         )}
         <div className="w-full mt-5">
-          <input type="submit" value="Sign Up" className={`${styles.button}`} />
+          <button 
+            type="submit" 
+            ddisabled={isLoading}
+            className={`${styles.button} ${isLoading ? "opacity-50 cursor-not-allowed" : ""}`} 
+          >
+            {isLoading ? "Signing up..." : "Sign Up"}
+          </button>
         </div>
         <br />
       </form>
