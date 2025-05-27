@@ -7,7 +7,7 @@ import {
 } from "react-icons/hi";
 import NavItems from "../utils/NavItems";
 import { ThemeSwitcher } from "../utils/ThemeSwitcher";
-import CustomModal from "@/utils/CustomModal";
+import CustomModal from "../utils/CustomModal";
 import Login from "../Auth/Login";
 import SignUp from "../Auth/SignUp";
 import Verification from "../Auth/Verification";
